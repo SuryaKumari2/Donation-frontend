@@ -1,0 +1,17 @@
+.success {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .success h1 {
+    color: green;
+  }
+  .cancel {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cancel h1 {
+    color: red;
+  }
+  

@@ -1,0 +1,132 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    justify-content: space-around;
+    font-family: poppins;
+    color: red;
+}
+.navbar-l{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.navbar-l h1{
+    
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-r{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar-l .logo{
+    width: 50px;
+}
+.navbar-r button{
+    cursor: pointer;
+    background-color: transparent;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 25px;
+    transition:background 0.3s;
+    
+}
+.navbar-r button:hover{
+    background-color:rgb(230, 75, 75);
+    color: white;
+    border: none;
+}
+.navbar-r  .dot{
+    font-size:70px;
+    top: -17px;
+    position: absolute;
+    
+}
+.navbar .active{
+    border-bottom: 3px solid red;
+    padding-bottom: 10px;
+}
+.navbar li{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 540px) {
+    .navbar{
+        margin: 20px;
+    }
+    .navbar-l{
+        gap:10;
+    }
+    
+.navbar-l h1{
+    
+    font-size: 10px;
+}
+.navbar-l .logo{
+    width: 20px;
+}
+.navbar ul{
+   margin-left: -20px;
+    gap: 10px;
+    
+}
+.navbar li{
+    font-size: 10px;
+}
+
+.navbar-r button{
+    padding: 5px;
+    font-size: 10px;
+    
+    
+}
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .navbar{
+        margin: 35px;
+    }
+    .navbar-l{
+        gap:15;
+    }
+    
+.navbar-l h1{
+    
+    font-size: 15px;
+}
+.navbar-l .logo{
+    width: 30px;
+}
+.navbar ul{
+   
+    gap: 15px;
+    
+}
+.navbar li{
+    font-size: 13px;
+}
+
+.navbar-r button{
+    padding: 6px;
+    font-size: 12px;
+    
+    
+}
+}

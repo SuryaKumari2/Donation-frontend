@@ -1,0 +1,87 @@
+.first{
+    background: url('/smileChild.jpg') no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80%;
+    border-radius: 20px;
+    background-position: center ;
+    position: relative;
+    margin: 5% auto;
+    animation: fadeIn 3s;
+}
+.second{
+    background: url('/groupChild.jpg') no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 80%;
+    animation: fadeIn 3s;
+    border-radius: 20px;
+    position: relative;
+    background-position: center ;
+    margin: 5% auto;
+}
+.third{
+    background: url('/child.jpg') no-repeat;
+    border-radius: 20px;
+    background-size: cover;
+    position: relative;
+    height: 70vh;
+    width: 80%;
+    background-position: center ;
+    margin: 5% auto;
+    animation: fadeIn 3s;
+
+}
+.home-p{
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: poppins;
+    position: absolute;
+    text-align: center;
+    padding: 5%;
+    bottom: 10%;
+    animation: fadeIn 3s;
+}
+.third .home-p{
+    color: white;
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+
+/* Responsive for tablets (768px and above) */
+@media only screen and (max-width: 768px) {
+    .first, .second, .third {
+        height: 60vh;
+        width: 90%;
+    }
+
+    .home-p {
+        font-size: 35px;
+        padding: 3%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .first, .second, .third {
+        height: 50vh;
+        width: 95%;
+    }
+
+    .home-p {
+        font-size: 25px;
+        padding: 2%;
+        bottom: 5%;
+    }
+}

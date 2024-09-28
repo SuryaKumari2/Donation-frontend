@@ -1,0 +1,39 @@
+.donate{
+    background: url('/hands.jpg') ;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    animation: fadeIn 3s;
+    width: 80%;
+}
+.donate-quote{
+    padding-top: 15%;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: poppins;
+    color: white;
+    bottom: 30%;
+    text-align: center;
+    animation: fadeIn 3s;
+}
+.donate button{
+    margin: 10% 5%;
+    padding: 12px;
+    font-size: 20px;
+    background-color: rgb(232, 13, 50);
+    border: none;
+    border-radius: 25px;
+    color: white;
+
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

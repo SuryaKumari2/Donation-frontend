@@ -1,0 +1,66 @@
+.about{
+    margin: 5% auto;
+    height: 60vh;
+    width: 80%;
+    font-family: poppins;
+    background-color:rgb(252, 227, 182);
+    padding: 5% auto;
+    border-radius: 20px;
+
+}
+.about-title{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top:5%;
+    
+
+}
+.about-p1{
+    color:black;
+    text-align: center;
+    width: 90%;
+    padding-left: 3%;
+    text-align: center;
+    bottom: 5%;
+    font-size: 20px;
+
+}
+
+@media only screen and (max-width:540px) {
+    .about-p1{
+        font-size: 7px;
+    }
+    .about-title{
+        font-size: 25px;
+    }
+    .about{
+        height: 80vh;
+    }
+}
+
+
+@media only screen and (max-width:870px) {
+    .about-p1{
+        font-size: 14px;
+    }
+    .about-title{
+        font-size: 25px;
+    }
+    .about{
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    .about-p1{
+        font-size: 16px;
+    }
+    .about-title{
+        font-size: 25px;
+    }
+    .about{
+        height: 80vh;
+    }
+}

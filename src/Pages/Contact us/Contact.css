@@ -1,0 +1,60 @@
+.contact{
+    margin: 5% auto;
+    height: 60vh;
+    width: 80%;
+    font-family: poppins;
+    background-color:rgb(253, 253, 148);
+    padding: 5% auto;
+    border-radius: 20px;
+    
+
+}
+.contact h1{
+    text-align: center;
+    color: red;
+    padding-top: 5%;
+    gap: 20px;
+}
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.contact-p{
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    
+}
+.contact img{
+    width: 20px;
+    padding-right: 10px;
+    
+}
+.email,.mobile,.address{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color:black;
+}
+
+
+
+@media (max-width: 940px) {
+    .contact {
+        height: auto; 
+        width: 90%; 
+        padding: 10% 0; 
+    }
+    
+    .info {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .email, .mobile, .address {
+        width: 80%; 
+        margin-bottom: 20px;
+    }
+}
